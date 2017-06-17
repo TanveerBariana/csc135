@@ -1,0 +1,3 @@
+catsiblings(s, g):- catowner(c,s), catowner(k,g), catparent(p,c), catparent(p,k).  
+catparent(p, k). 
+catowner(c, x). 
